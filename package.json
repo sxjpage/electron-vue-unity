@@ -30,9 +30,9 @@
       "oneClick": true,
       "allowElevation": true,
       "allowToChangeInstallationDirectory": false,
-      "installerIcon": "build/icons/icon.ico",
-      "uninstallerIcon": "build/icons/icon.ico",
-      "installerHeaderIcon": "build/icons/icon.ico",
+      "installerIcon": "static/icons/icon.ico",
+      "uninstallerIcon": "static/icons/icon.ico",
+      "installerHeaderIcon": "static/icons/icon.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": false,
       "shortcutName": "electron&unity",
@@ -54,13 +54,13 @@
       ]
     },
     "mac": {
-      "icon": "build/icons/icon.icns"
+      "icon": "static/icons/icon.icns"
     },
     "win": {
-      "icon": "build/icons/icon.ico"
+      "icon": "static/icons/icon.ico"
     },
     "linux": {
-      "icon": "build/icons"
+      "icon": "static/icons"
     }
   },
   "dependencies": {
