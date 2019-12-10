@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/renderer/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  }
+}
